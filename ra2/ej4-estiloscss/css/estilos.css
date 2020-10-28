@@ -1,0 +1,47 @@
+
+body{
+    font-family: sans-serif;
+    font-size: 12pt;
+    color:black;
+    background: lightgrey;
+    margin: 10px;
+}
+
+h1{
+    text-align: center;
+    font-size: 300%;
+    letter-spacing: 10px;
+    
+}
+
+img{
+    margin: 0 10px 10px 0;
+    float: left;
+    height: 150px;
+    width: 106px
+}
+
+h2{
+    clear: both;
+    background-color: grey;
+    color: white;
+    padding: 0.2rem 0.5rem;
+    font-size: 200%;
+}
+
+p{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-indent: 2rem;
+    text-align: justify;
+}
+
+
+
+i{
+    color: red;
+}
+
+strong{
+    background-color: white;
+}

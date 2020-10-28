@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Turret+Road:wght@500&display=swap');
+
+/* @font-face{
+    font-family:
+    src:url() format();
+    font-weigh: normal;
+    font-style: normal;
+} */
+
+
+body{
+    font-family: sans-serif;
+    font-size: 12pt;
+    color:black;
+    background: lightgrey;
+    margin: 10px;
+}
+
+h1{
+    text-align: center;
+    font-size: 300%;
+    letter-spacing: 10px;
+    font-family: 'Syne Mono', monospace;
+}
+
+h2{
+    clear: both;
+    background-color: grey;
+    color: white;
+    padding: 0.2rem 0.5rem;
+    font-family: 'Turret Road', cursive;
+}
+
+p{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-indent: 2rem;
+    text-align: justify;
+}
+
+img{
+    margin: 0 10px 10px 0;
+    float: left;
+    height: 150px;
+    width: 106px
+}
+
+i{
+    color: red;
+}
+
+strong{
+    background-color: white;
+}

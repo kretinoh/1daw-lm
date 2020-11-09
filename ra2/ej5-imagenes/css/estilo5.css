@@ -1,0 +1,50 @@
+.caja1{
+    margin: 2%;
+    border: 5px solid #c3da18;
+    padding: 10px 10px 10px 20px;
+    background: #fffd88;
+    width: 30%;
+    text-align: justify;
+}
+
+.resaltado{
+    background-color: white;
+    color: blue;
+    font-weight: bolder;
+}
+.caja2{
+    margin: 2%;
+    border: 4px dashed black;
+    border-radius: 20px 50px 20px 50px;
+    box-shadow: 10px 10px 10px gray;
+    padding: 20px 10px 10px 20px;
+    background: #fffd88;
+    width: 30%;
+    text-align: justify;
+}
+.codigo{
+    background-color: white;
+    border: 2px solid black;
+}
+
+.caja3{
+    margin: 2%;
+    padding: 20px 10px 10px 20px;
+    background: #fffd88;
+    width: 30%;
+    text-align: justify;
+    border: 25px solid black;
+    border-image-source:url(../asdas);
+}
+.caja4{
+    margin: 2%;
+    padding: 20px 10px 10px 20px;
+    background: #fffd88;
+    width: 30%;
+    text-align: justify;
+    border: 20px solid black;
+    border-image-source:url(../asdas);
+    border-image-slice: 25;
+}
+/* propiedad stretch, repeat round space borde-image
+position static (fixed,relative, absolute) top, bottom, tight, legt */

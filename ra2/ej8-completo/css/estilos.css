@@ -1,0 +1,56 @@
+
+.tamanio80{
+    width: 80%;
+    margin: auto;
+ } 
+ .menu{
+     margin-top: 5px;
+     list-style-type: none;
+     padding: 0;
+     overflow: hidden;
+     background-color: rgb(41, 41, 41);
+ }
+ .menu li a{
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 12px 14px;
+     text-decoration: none;
+ }
+.menu li{
+     float: left;
+ }
+ .menu li:hover{
+     background-color: gray;
+ }
+ .menu li:active{
+    background: red;
+ }
+
+ .titulo{
+     text-align: center;
+ }
+ .izquierda{
+     float:left;
+     width: 25%;
+     text-align: inherit;
+ }
+ .derecha{
+    text-align: justify; 
+    float: right;
+    width: 75%;
+}
+
+.derecha ul li{
+    width: 30%;
+    float: left;
+    list-style: none;
+    text-align: justify;
+    margin-right: 1.5em;
+}
+img{
+    margin-right: 1em;
+    float: left;
+    width: 40%;
+    height: auto;
+}

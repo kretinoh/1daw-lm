@@ -1,0 +1,81 @@
+@font-face{
+    src: url("../fuentes/ArchitectsDaughter/ArchitectsDaughter-Regular.ttf") format("truetype");
+    font-family: "Architects Daughter";
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    src: url("../fuentes/Dosis/Dosis-VariableFont_wght.ttf") format("truetype");
+    font-family: "Dosis";
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    src: url("../fuentes/Balsamiq_Sans/BalsamiqSans-Bold.ttf") format("truetype");
+    font-family: "Balsamiq";
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    src: url("../fuentes/monospace/Monospace.ttf") format("truetype");
+    font-family: "mono";
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-size: 14px;
+    font-family: "Architects Daughter";
+    text-align: justify;
+    color: slateblue;
+    background-image: url("../imagenes/madera-oscura.jpg");
+}
+p{
+    text-indent: 20px;
+}
+.titulo{
+    font-family: "Dosis";
+    color: steelblue;
+    text-align: center;
+    letter-spacing: 5px;
+
+}
+
+.imgTitulo{
+    background-image: url("../imagenes/madera-clara.jpg");
+}
+
+.cita{
+    text-align: right !important;
+}
+
+i{
+    font-weight: bold;
+    color: olive;
+}
+
+h3{
+    font-family: "Balsamiq";
+    font-size: 20px;
+    text-align: right;
+    color: indigo;
+    font-weight: bold;
+}
+
+abbr{
+    color: sienna;
+    font-size: 16px;
+}
+
+.entrecomillado{
+    color: darkred;
+}
+
+.marcado{
+    background-color: mediumslateblue;
+}
+
+.preformateado{
+    color: brown;
+    background: linear-gradient(indianred, lightcoral);
+    font-family: "mono";
+}

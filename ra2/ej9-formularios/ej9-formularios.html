@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="Rafael Maestre">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ejercicio9:Formularios">
+    <title>Ejercicio 9: Formularios</title>
+</head>
+
+<body>
+    <h1>Controles de formulario</h1>
+    <form action="prueba.php" method="GET" accept-charset="utf-8">
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <p>
+                <label for="nombre">Nombre: </label>
+                <input type="text" name="nombre" maxlength="35" required>
+            </p>
+            <p>
+                <label for="email">Correo electronico: </label>
+                <input type="email" name="email" maxlength="100" required>
+            </p>
+            <label for="url">URL: </label>
+            <input type="url" name="url" placeholder="Escribe la URL de tu página web personal" .>
+            <p>
+                <label for="ciudad">Ciudad: </label>
+                <select name="ciudad">
+                    <option value="Co">Cordoba</option>
+                    <option selected value="Se">Sevilla</option>
+                    <option value="Gr">Granada</option>
+                    <option value="Al">Almeria</option>
+                    <option value="Ma">Málaga</option>
+                    <option value="Ca">Cádiz</option>
+                    <option value="Hu">Huelva</option>
+                    <option value="Ja">Jaen</option>
+                </select>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Otros datos</legend>
+            <p>
+                <label class="fecha">Fecha:</label>
+                <input type="date" name="fecha">
+            </p>
+            <p>
+                <label class="tiempo">Tiempo:</label>
+                <input type="time" name="tiempo">
+            </p>
+            <p>
+                <label class="datetime">Fecha y hora:</label>
+                <input type="datetime" name="datetime" placeholder="dd/mm/aaaa hh:mm">
+            </p>
+            <p>
+                <label class="mes">Mes:</label>
+                <input type="month" name="mes">
+            </p>
+            <p>
+                <label class="semana">Semana:</label>
+                <input type="week" name="semana">
+            </p>
+            <p>
+                <label class="numero">Número:</label>
+                <input type="number" name="numero" min="-10" max="10">
+            </p>
+            <p>
+                <label class="telefono">Teléfono:</label>
+                <input type="tel" name="telefono">
+            </p>
+            <p>
+                <label class="busqueda">Buscar:</label>
+                <input type="search" name="busqueda">
+            </p>
+            <p>
+                <label class="color">Color favorito:</label>
+                <input type="color" name="color" value="#FF0000">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Otros Controles</legend>
+            <p>
+                Aficiones:
+                <label>
+                    <input type="checkbox" name="cine" value="1"> Cine
+                </label>
+                <label>
+                    <input type="checkbox" name="deporte" value="1"> Deporte
+                </label>
+            </p>
+            <p>
+                Forma de pago:
+            <p>
+                <label>
+                    <input type="radio" name="pago" value="Visa"> Visa
+                </label>
+                <label>
+                    <input type="radio" name="pago" value="American Express"> American Express
+                </label>
+                <label>
+                    <input type="radio" name="pago" value="MasterCard"> MasterCard
+                </label>
+            </p>
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" name="aceptar" value="Enviar">
+            <input type="reset" name="borrar" value="Borrar">
+        </p>
+    </form>
+</body>
+
+</html>

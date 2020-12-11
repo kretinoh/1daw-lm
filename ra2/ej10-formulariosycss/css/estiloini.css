@@ -22,19 +22,18 @@ nav{
     margin-top: 1em;
     width: 100%;
 }
-nav > ul{
+nav ul{
     padding: 0;
     overflow: hidden;
     list-style-type: none;
     background-color:rgb(48, 48, 48);
 }
 
-nav > ul > li{
+nav li{
     float: right;
 }
 
-
-nav ul li a{
+nav li a{
     color: white;
     text-align: center;
     padding: 14px 12px;
@@ -43,26 +42,7 @@ nav ul li a{
     border: 0px;
 }
 nav li a:hover{
-    background-color: grey;
-}
-
-/* menu desplegable */
-nav li> ul{
-    list-style-type: none;
-    display: none;
-    position: absolute;
-}
-nav li:hover > ul{
-    display: block;
-}
-nav li ul li a{
-    color: white;
-    background-color: black;
-    text-decoration: none;
-    text-align: center;
-    min-width: 65px;
-    position: relative;
-    right: 2.5em;
+    background-color: lightgrey;
 }
 
 h1{
@@ -70,28 +50,39 @@ h1{
     text-align: center;
     text-shadow: 1px 1.2px grey;
     width: 100%;
+    clear: both;
+    margin-top: auto;
+    position: relative;
 }
-
 section{
     width: 70%;
     float: left;
 }
 
-.form_izquierda{
-    width: 50%;
-    float: left;
-}
-
-.form_derecha{
-    float: left;
-    width: 50%;
+section h2{
+  color: green;
+  font-weight: bolder !important;
 }
 
 .bdy{
     width: 100%;
-
+}
+.bdy div{
+  text-align: center;
 }
 
+.pizza1{
+  float: left;
+  width: 30%
+}
+.pizza2{
+  float: left;
+  width: 30%
+}
+.pizza3{
+  float: left;
+  width: 30%
+}
 aside{
     width: 25%;
     float: right;
@@ -102,11 +93,6 @@ aside{
 
 .content{
     padding-left: 50px;
-}
-
-.botones{
-    padding: 20px;
-    margin-bottom: 45px !important;
 }
 
 footer{

@@ -2,12 +2,12 @@
 <rss version="2.0">
 <channel>
     <title>Wow Page</title>
-    <category>Games</category>
-    <author>Rafael Maestre</author>
-    <link>https://www.google.com/</link>
+    <link>https://kretinoh.github.io/1daw-lm/</link>
+    <category>Videojuegos</category>
     <description>Noticias actuales de World of Warcraft</description>
-    <languaje>es-es</languaje>
-    <lastBuildDate>Sun, 14 Feb 2021</lastBuildDate>
+    <copyright>a20madera@iesgrancapitan.org (Rafael Maestre del Río)</copyright>
+
+    <lastBuildDate>Sun, 14 Feb 2021 12:59:00 +0100</lastBuildDate>
 
     <skipDays>
         <day>Saturday</day>
@@ -25,26 +25,43 @@
 
     <image>
         <url>https://drive.google.com/file/d/15ejb6asyiit-5-h41VXvp61GP6ZFHASw/view?usp=sharing</url>
-        <title>WORLD OF WARCRAFT</title>
-        <link>https://worldofwarcraft.com/es-es/</link>
+        <title>Wow Page</title>
+        <link>https://kretinoh.github.io/1daw-lm/</link>
     </image>
+
+<!-- NOTICIAS -->
 
     <item>
         <title>WoW Classic: ¡ya está disponible Naxxramas!</title>
         <link>https://worldofwarcraft.com/es-es/news/23572632/wow-classic-%C2%A1ya-est%C3%A1-disponible-naxxramas</link>
         <description>Noticia de Wow clasic</description>
-        <author>Rafael Maestre del Río</author>
-        <summary>Ha llegado Naxxramas</summary>
+        <author>a20madera@iesgrancapitan.org(Rafael Maestre del Río)</author>
     </item>
 
     <item>
         <title>Nueva montura: Yun el Afortunado</title>
         <link>https://worldofwarcraft.com/es-es/news/23606578/nueva-montura-yun-el-afortunado</link>
         <description>Noticia de Wow Retail</description>
-        <author>Rafael Maestre del Río</author>
-        <summary>Ya puedes comprar la nueva montura</summary>
-        <enclosure url="https://bnetcmsus-a.akamaihd.net/cms/blog_header/3t/3TZJ0MZDFU4C1606891276802.jpg" length="5000" type="image" />
+        <author>a20madera@iesgrancapitan.org (Rafael Maestre del Río)</author>
+        <enclosure url="https://bnetcmsus-a.akamaihd.net/cms/blog_header/3t/3TZJ0MZDFU4C1606891276802.jpg" length="5000" type="image/jpg"/>
     </item>
 
+    <item>
+        <title>Correcciones en vivo del 11 de febrero de 2021</title>
+        <description>Correcciones en vivo de este parche</description>
+        <link>https://worldofwarcraft.com/es-es/news/23580183/correcciones-en-vivo-del-11-de-febrero-de-2021</link>
+        <author>a20madera@iesgrancapitan.org (Rafael Maestre del Río)</author>
+        <category>Noticias</category>
+        <enclosure url="https://kretinoh.github.io/1daw-lm/ra2/ejRSS1/Videos/guia.mp4" type="video/mp4" length="35635621" />
+    </item>
+
+    <item>
+        <title>¡Ala 4 del Castillo de Nathria ya disponible en Buscador de bandas!</title>
+        <description>Acabad con el traidor sire Denathrius y los fieles de su corte antes de que ejecuten sus malvados planes en una nueva banda épica: Castillo de Nathria.</description>
+        <link>https://worldofwarcraft.com/es-es/news/23584139/%C2%A1ala-4-del-castillo-de-nathria-ya-disponible-en-buscador-de-bandas</link>
+        <author>a20madera@iesgrancapitan.org (Rafael Maestre del Río)</author>
+        <category>Noticias</category>
+        <enclosure url="https://kretinoh.github.io/1daw-lm/ra2/ejRSS1/img/nathria.jpg" type="image/jpg" length="33271" />
+    </item>
 </channel>
 </rss>

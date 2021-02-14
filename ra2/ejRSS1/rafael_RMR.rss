@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+<channel>
+    <title>Wow Page</title>
+    <category>Games</category>
+    <author>Rafael Maestre</author>
+    <link>https://www.google.com/</link>
+    <description>Noticias actuales de World of Warcraft</description>
+    <languaje>es-es</languaje>
+    <lastBuildDate>Sun, 14 Feb 2021</lastBuildDate>
+
+    <skipDays>
+        <day>Saturday</day>
+        <day>Sunday</day>
+    </skipDays>
+    
+    <skipHours>
+        <hour>0</hour>
+        <hour>1</hour>
+        <hour>2</hour>
+        <hour>3</hour>
+        <hour>4</hour>
+        <hour>5</hour>
+    </skipHours>
+
+    <image>
+        <url>https://drive.google.com/file/d/15ejb6asyiit-5-h41VXvp61GP6ZFHASw/view?usp=sharing</url>
+        <title>WORLD OF WARCRAFT</title>
+        <link>https://worldofwarcraft.com/es-es/</link>
+    </image>
+
+    <item>
+        <title>WoW Classic: ¡ya está disponible Naxxramas!</title>
+        <link>https://worldofwarcraft.com/es-es/news/23572632/wow-classic-%C2%A1ya-est%C3%A1-disponible-naxxramas</link>
+        <description>Noticia de Wow clasic</description>
+        <author>Rafael Maestre del Río</author>
+        <summary>Ha llegado Naxxramas</summary>
+    </item>
+
+    <item>
+        <title>Nueva montura: Yun el Afortunado</title>
+        <link>https://worldofwarcraft.com/es-es/news/23606578/nueva-montura-yun-el-afortunado</link>
+        <description>Noticia de Wow Retail</description>
+        <author>Rafael Maestre del Río</author>
+        <summary>Ya puedes comprar la nueva montura</summary>
+        <enclosure url="https://bnetcmsus-a.akamaihd.net/cms/blog_header/3t/3TZJ0MZDFU4C1606891276802.jpg" length="5000" type="image" />
+    </item>
+
+</channel>
+</rss>

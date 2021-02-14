@@ -16,6 +16,7 @@ header p{
     font-size: 45px;
     font-weight: 800;
     text-shadow: 2px 2px black;
+    back
 }
 
 nav{
@@ -88,6 +89,7 @@ aside{
     float: right;
     border-left: 2px solid black;
     height: 400px;
+    text
 
 }
 

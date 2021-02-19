@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="https://www.w3.org/2005/Atom">
+
+    <title>Feed sobre World of Warcraft</title>
+    <subtitle>Noticias actuales de World of Warcraft</subtitle>
+
+    <link href="https://github.com/kretinoh/1daw-lm/tree/gh-pages/ra2/" />
+
+    <updated>2021-02-18T15:26:00Z</updated>
+
+    <id>urn:uuid:e4e6789a-c47e-48d7-95da-cb6644c5d9fa</id>
+
+    <author>
+        <name>Rafael Maestre</name>
+        <email>correodeejemplo@gmail.com</email>
+    </author>
+    
+
+    <entry>
+        <title>WoW Classic: ¡ya está disponible Naxxramas!</title>
+        <link href="https://worldofwarcraft.com/es-es/news/23572632/wow-classic-%C2%A1ya-est%C3%A1-disponible-naxxramas"/>
+        <id>urn:uuid:a86d849c-32c0-4d5c-8d3a-ac2b3ec6b3b0</id>
+        <updated>2021-02-18T15:26:00Z</updated>
+        <summary>Noticia de Wow clasic</summary>
+
+        <link rel="enclosure"
+	    xml:lang="es-es"
+	    title="Noticia sobre Wow classic"
+        type="image/jpg"
+	    href="./img/nathria.jpg" />
+
+           <author>
+                <name>Pipo pere</name>
+                <email>dasddas@gmail.com</email>
+            </author> 
+    </entry>
+
+    <entry>
+        <title>Nueva montura: Yun el Afortunado</title>
+        <link href="https://worldofwarcraft.com/es-es/news/23606578/nueva-montura-yun-el-afortunado"/>
+        <id>urn:uuid:e8367ac8-8bd7-4c17-acfa-58a4320eea80</id>
+        <updated>2021-02-18T15:26:00Z</updated>
+        <summary>Noticia de Wow y las monturas</summary>
+
+		<link href="https://www.youtube.com/watch?v=f2StrEKe1qg"></link>
+		<link rel="enclosure"
+		type="audio/mpeg"
+		title="MP3"
+		href="./audio/Yun-Mount.mp3"
+		length="127556438"/>
+            <author>
+                <name>CEO DE WOW</name>
+                <email>wowu@gmail.com</email>
+            </author>
+    </entry>
+
+    <entry>
+        <summary type="html">
+			&lt;h2&gt;El año pasado colaboramos con nuestras comunidades de World of Warcraft de todo el mundo para crear 
+            una nueva montura que queremos regalar a todos los jugadores que tengan Shadowlands activado en su cuenta o adquieran 
+            la expansión en una fecha posterior. Tras recibir cientos de miles de votos, ¡el ancestro errante ha sido el ganador!&lt;h2&gt;
+			</summary>
+			<author>
+				<name>Blizzard Entertainment</name>
+				<email>contanto@blizzard.es</email>
+			</author>
+    </entry>
+
+    <entry>
+        <title>Nueva montura por los 6 meses</title>
+			<id>urn:uuid:041dcd3b-05df-4568-8b7b-0a9d1eb6fd30</id>
+			<updated>2020-02-19T21:30:00Z</updated>
+		
+			<link href="https://news.blizzard.com/es-es/world-of-warcraft/23236728/una-montura-nueva-al-comprar-una-suscripcion-de-6-meses"></link>
+    </entry>
+</feed>
